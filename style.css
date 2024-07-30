@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header*/
+header{
+    background-color: lemonchiffon;
+    font-family: fantasy;
+    color:darkorange;
+    padding: 25px;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: 1s;
+}
+
+header:hover{
+    background-color:turquoise;
+}
+
+/*Barra de navegar*/
+
+.navbar{
+    background-color: brown;
+    text-align: center;
+}
+.nav-link:hover{
+    color: lightsalmon;
+}
+
+/*Seccion Principal*/
+.card{
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.card img{
+    width: 50%;
+    border-radius: 10px;
+
+
+}
+/*footer*/
+footer{
+    background-color:rgb(226, 217, 82);
+    margin-top: 4px;
+    height: 100%;
+}
+
+.sobra{
+    height: 155px;
+}
+footer li{
+    list-style: none;
+    margin: 5px;
+}
+
+.bi-facebook{
+    color: blue;
+}
+
+.bi-instagram{
+    color: orangered;
+}
+footer ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Section*/
+.Victor-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.lluvia-love{
+    font-family: sans-serif;
+}
+video{
+    width: 50%;
+    border-radius: 30px;
+}
+
+.Nosotros{
+    background:linear-gradient(20deg,pink,yellow);
+}
+
+.Fila2{
+    margin-bottom:50px;
+}
+
+.Fila3{
+    margin-bottom: 40px;
+}
+
+.Fila1{
+    margin-bottom:30px;
+}
+
+.Contactanos{
+    text-align: center;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+h3{
+    font-family: fantasy;
+}
+/*Svg*/
+svg{
+    position: relative;
+}
+.imagensvg{
+    background:linear-gradient(rgb(54, 126, 194),rgb(116, 116, 9));
+}
+
+circle{
+    stroke: antiquewhite;
+    fill: lightcoral;
+}
+
+.imagensvg h4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+audio{
+    position: absolute;
+    bottom: 95px;
+    right: 1500px;
+    width: 60px;
+}
+
+/*FORMULARIO*/
+form{
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+.form-control{
+    width: 60%;
+}
+
+.formulario{
+    background:linear-gradient(pink,orange);
+    height: 500px;
+}
